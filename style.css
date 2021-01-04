@@ -1,6 +1,72 @@
 body{
     margin: 0px;
+    font-family: 'Lato', sans-serif;
 }
 h1{
     font-size: 50px;
+    color: rgb(44, 32, 32);
+}
+.half-part{
+    width: 38%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 5%;
+    
+}
+.highlighted-text{
+    color:darkcyan;
+}
+.half-part img{
+    width: 75%;
+}
+section{
+    height: 550px;
+}
+.top_section{
+    background-image: url("images/background4.jpg");
+    background-repeat: no-repeat;
+}
+p{
+    color: gray;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px;
+    background-image: linear-gradient(45deg,rgb(9, 49, 40), rgb(14, 172, 137));
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+h2{
+    font-size: 40px;
+    color: rgb(44, 32, 32);
+}
+.experience{
+    background-image: url("images/backgroun6.png");
+    background-repeat: no-repeat;
+    background-position-y: 70px;
+    
+}
+.dream-section{
+    background-image: url("images/backgroundg.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 10px;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,rgb(9, 49, 40), rgb(14, 172, 137) );
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg,rgb(248, 237, 139), rgb(136, 47, 5));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
